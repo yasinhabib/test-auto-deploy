@@ -25,3 +25,4 @@ jobs:
 #     - run: npm i
     - run: shopt -s dotglob
     - run: cp -r ./* ../ && rm -R ./*
+    - run: cp .env ../ && rm ./.env
